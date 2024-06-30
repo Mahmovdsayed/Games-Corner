@@ -9,6 +9,31 @@ interface IProps {
     name: string
 }
 
+const storeImage = (store_id: any) => {
+    if (store_id == "3") {
+        return "";
+    } else if (store_id == "11") {
+        return "";
+    } else if (store_id == "1") {
+        return "";
+    } else if (store_id == "7") {
+        return "";
+    } else if (store_id == "2") {
+        return "";
+    } else if (store_id == "5") {
+        return "";
+    } else if (store_id == "8") {
+        return "";
+    } else if (store_id == "9") {
+        return "";
+    } else if (store_id == "6") {
+        return "";
+    } else if (store_id == "4") {
+        return "";
+    } else {
+        return "";
+    }
+}
 
 const storeName = (store_id: any) => {
     if (store_id == "3") {
