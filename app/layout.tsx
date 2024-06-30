@@ -14,7 +14,7 @@ const inter = Poppins({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://gamescorner.vercel.app'),
+  metadataBase: new URL('https://games-corner.vercel.app'),
 
   title: "Games Corner",
   manifest: "/manifest.json",
