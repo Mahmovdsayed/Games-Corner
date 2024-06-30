@@ -22,7 +22,7 @@ export async function generateMetadata({
     const data = await res.json();
     return {
         title: data.name,
-        description: data.overview,
+        description: data.description_raw,
         keywords: [data.name],
         openGraph: {
             images: [data.background_image],
