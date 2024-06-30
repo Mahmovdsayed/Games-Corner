@@ -1,5 +1,7 @@
 /** @type {import('next').NextConfig} */
 
+import withPWA from 'next-pwa';
+
 const nextConfig = {
   productionBrowserSourceMaps: false,
   swcMinify: true,
@@ -18,10 +20,10 @@ const nextConfig = {
     API_KEY: process.env.RAWG_API_KEY,
   },
 };
-const withPWA = require("next-pwa")({
+
+export default withPWA({
   dest: "public",
   disable: process.env.NODE_ENV === "development",
   register: true,
   skipWaiting: true,
-});
-module.exports = withPWA(nextConfig);
+})(nextConfig);
