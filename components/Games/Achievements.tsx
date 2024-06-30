@@ -35,6 +35,7 @@ const Achievements = ({ id, name }: IProps) => {
                             <Image
                                 className="object-cover object-center"
                                 src={store.image}
+                                alt={store.id}
                             />
                         </CardHeader>
                         <CardBody>
