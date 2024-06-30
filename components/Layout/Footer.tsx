@@ -55,7 +55,7 @@ const Footer = ({ }: IProps) => {
             </Button>
           </div>
           <div className="mt-2 md:mt-0">
-            <h3 className="text-sm font-medium md:text"> © 2024{" "}<span onClick={() => (window.location.href = "https://www.instagram.com/nest.dev")} className="font-bold cursor-pointer text-[#0070f0]">Games Korner</span>, All rights reserved.</h3>
+            <h3 className="text-sm font-medium md:text"> © 2024{" "}<span onClick={() => (window.location.href = "https://www.instagram.com/nest.dev")} className="font-bold cursor-pointer text-[#0070f0]">Games Corner</span>, All rights reserved.</h3>
           </div>
           <div className="mt-2 md:mt-0">
             <h3 className="text-sm font-medium md:text">Powered by{" "} <span onClick={() => (window.location.href = "https://www.instagram.com/nest.dev")} className="font-bold cursor-pointer">NEST</span></h3>
