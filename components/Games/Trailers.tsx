@@ -34,6 +34,7 @@ const Trailers = ({ id, name }: IProps) => {
                             <Image
                                 className="object-cover object-center"
                                 src={store.preview}
+                                alt={store.id}
                             />
                         </CardHeader>
                         <CardBody>
