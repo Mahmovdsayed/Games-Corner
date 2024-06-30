@@ -1,0 +1,32 @@
+{
+    "theme_color": "#9B08CE",
+    "background_color": "#9B08CE",
+    "display": "standalone",
+    "scope": "/",
+    "start_url": "/",
+    "name": "Games Corner",
+    "short_name": "Games Korner",
+    "description": "Welcome to Games Corner, your ultimate destination for everything gaming! With comprehensive reviews of over 800,000 games and detailed information on more than 40,000 pages, Games Corner has everything you need to make informed gaming choices. What sets Games Corner apart is its unique feature allowing users to save their favorite games to their personal accounts, enabling easy access for future enjoyment without the hassle of searching. Explore the world of gaming and personalize your experience with Games Corner.",
+    "icons": [
+        {
+            "src": "/icon-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/icon-256x256.png",
+            "sizes": "256x256",
+            "type": "image/png"
+        },
+        {
+            "src": "/icon-384x384.png",
+            "sizes": "384x384",
+            "type": "image/png"
+        },
+        {
+            "src": "/icon-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}
